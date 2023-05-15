@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">LockerLibrary</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -29,18 +29,18 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Dropdown
+              My
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">로그인</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Register</a></li> -->
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">고객센터</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled">검색</a>
+          </li> -->
         </ul>
         <form class="d-flex" role="search">
           <input
